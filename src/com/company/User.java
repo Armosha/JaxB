@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "user")
 public class User {
 
-    private String id;
+    private String userId;
     private String login;
     private String password;
 
@@ -15,16 +15,16 @@ public class User {
         super();
     }
 
-    public User(String id, String login, String password) {
+    public User(String userId, String login, String password) {
         super();
-        this.id = id;
+        this.userId = userId;
         this.login = login;
         this.password = password;
     }
 
     @XmlElement
-    public String getId() {
-        return id;
+    public String getUserId() {
+        return userId;
     }
 
     @XmlElement
@@ -41,8 +41,8 @@ public class User {
         this.login = login;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public void setPassword(String password) {
@@ -53,8 +53,8 @@ public class User {
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
-        if (password != null && login != null && id != null) {
-            str = str.append("User id is: " + id)
+        if (password != null && login != null && userId != null) {
+            str = str.append("User userId is: " + userId)
                     .append("\n")
                     .append("User login is: " + login)
                     .append("\n")

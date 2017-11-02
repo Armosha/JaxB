@@ -10,12 +10,12 @@ public class UserManager {
     UserTempParser parser = new UserTempParser();
     List<User> usersList = parser.unmarshallList();
 
-    public User getUser(String id) {
+    public User getUser(String userId) {
 
         User user = new User();
 
         for (User u : usersList) {
-            if (u.getId().equals(id)) {
+            if (u.getUserId().equals(userId)) {
                 user = u;
             }
         }
