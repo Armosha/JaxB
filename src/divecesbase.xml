@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<devices>
+    <device deviceName="iPhone 6">
+        <capabilities>
+            <udId>D4058B75-BD20-4B50-9856-E3EDF04C66</udId>
+            <platformName>iOS</platformName>
+            <bundleId>com.thomsonreuters.legal.beta.WestlawNext</bundleId>
+            <automationName>XCUITest</automationName>
+        </capabilities>
+        <coordinates>
+            <sectionName id="home">
+                <posX>60</posX>
+                <posY>100</posY>
+            </sectionName>
+            <sectionName id="myUpdates">
+                <posX>90</posX>
+                <posY>170</posY>
+            </sectionName>
+            <sectionName id="companies">
+                <posX>90</posX>
+                <posY>215</posY>
+            </sectionName>
+            <sectionName id="practiceAreas">
+                <posX>95</posX>
+                <posY>265</posY>
+            </sectionName>
+        </coordinates>
+    </device>
+</devices>

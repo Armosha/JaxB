@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<devices>
+    <device deviceName="iPhone 6">
+        <capabilities>
+            <udId>D4058B75-BD20-4B50-9856-E3EDF04C66</udId>
+            <platformName>iOS</platformName>
+            <bundleId>com.thomsonreuters.legal.beta.WestlawNext</bundleId>
+            <automationName>XCUITest</automationName>
+        </capabilities>
+        <coodrinates>
+            <coordinate sectionName="home">
+                <posX>60</posX>
+                <posY>100</posY>
+            </coordinate>
+            <coordinate sectionName="myUpdates">
+                <posX>90</posX>
+                <posY>170</posY>
+            </coordinate>
+            <coordinate sectionName="companies">
+                <posX>90</posX>
+                <posY>215</posY>
+            </coordinate>
+            <coordinate sectionName="practiceAreas">
+                <posX>95</posX>
+                <posY>265</posY>
+            </coordinate>
+            <coordinate sectionName="alerts">
+                <posX>65</posX>
+                <posY>315</posY>
+            </coordinate>
+            <coordinate sectionName="newsAnalysis">
+                <posX>105</posX>
+                <posY>390</posY>
+            </coordinate>
+            <coordinate sectionName="folders">
+                <posX>65</posX>
+                <posY>435</posY>
+            </coordinate>
+            <coordinate sectionName="search">
+                <posX>65</posX>
+                <posY>490</posY>
+            </coordinate>
+            <coordinate sectionName="history">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="alertCenter">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="offlineDocuments">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="settings">
+                <posX>70</posX>
+                <posY>558</posY>
+            </coordinate>
+            <coordinate sectionName="aboutUs">
+                <posX>70</posX>
+                <posY>608</posY>
+            </coordinate>
+            <coordinate sectionName="signOff">
+                <posX>66</posX>
+                <posY>656</posY>
+            </coordinate>
+        </coodrinates>
+    </device>
+
+    <device deviceName="iPhone 6s">
+        <capabilities>
+            <udId>78B091A9-6CE3-45D7-8A41-188EECA60123</udId>
+            <platformName>iOS</platformName>
+            <bundleId>com.thomsonreuters.legal.beta.WestlawNext</bundleId>
+            <automationName>XCUITest</automationName>
+        </capabilities>
+        <coordinates>
+            <coordinate sectionName="home">
+                <posX>60</posX>
+                <posY>100</posY>
+            </coordinate>
+            <coordinate sectionName="myUpdates">
+                <posX>90</posX>
+                <posY>170</posY>
+            </coordinate>
+            <coordinate sectionName="companies">
+                <posX>90</posX>
+                <posY>215</posY>
+            </coordinate>
+            <coordinate sectionName="practiceAreas">
+                <posX>95</posX>
+                <posY>265</posY>
+            </coordinate>
+            <coordinate sectionName="alerts">
+                <posX>65</posX>
+                <posY>315</posY>
+            </coordinate>
+            <coordinate sectionName="newsAnalysis">
+                <posX>105</posX>
+                <posY>390</posY>
+            </coordinate>
+            <coordinate sectionName="folders">
+                <posX>65</posX>
+                <posY>435</posY>
+            </coordinate>
+            <coordinate sectionName="search">
+                <posX>65</posX>
+                <posY>490</posY>
+            </coordinate>
+            <coordinate sectionName="history">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="alertCenter">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="offlineDocuments">
+                <posX>0</posX>
+                <posY>0</posY>
+            </coordinate>
+            <coordinate sectionName="settings">
+                <posX>70</posX>
+                <posY>558</posY>
+            </coordinate>
+            <coordinate sectionName="aboutUs">
+                <posX>70</posX>
+                <posY>608</posY>
+            </coordinate>
+            <coordinate sectionName="signOff">
+                <posX>66</posX>
+                <posY>656</posY>
+            </coordinate>
+        </coordinates>
+    </device>
+</devices>
